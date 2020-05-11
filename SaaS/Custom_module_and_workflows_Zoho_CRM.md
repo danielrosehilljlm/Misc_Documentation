@@ -6,7 +6,7 @@ More recently, I belatedly joined the cloud-hosted CRM world.
 
 And while I would be lying if I said that I don’t still have paranoid misgivings about what might happen if Zoho or any other cloud provider vanished off the face of the earth one day (or, more likely, dramatically changed its terms of services — or lost my data), I can’t deny that the functionality comfortably exceeds that found in the open source world.
 
-!![](/images/31.png)
+![](/images/31.png)
 
 One feature which I’ve always “built” into CRMs I have self-hosted is the ability to track articles I write for clients as projects within the CRM — and to send out automated update notifications as I indicate that they are in progress, have been finished, etc.
 
@@ -25,13 +25,13 @@ In retrospect ‘Projects’ might have been a better and more generic title, bu
 
 From the main setup menu, select ‘Modules and Fields’ from under ‘Customization’:
 
-!![](/images/32.png)
+![](/images/32.png)
 
 Then, simply click on the button to create a new module.
 
 The asterisks will flag this as user-created — compared to the default modules built in to the CRM:
 
-!![](/images/33.png)
+![](/images/33.png)
 
 
 Your first port of call will be the field editor.
@@ -39,7 +39,7 @@ Here, you can add all the picklists and conditions that you’ll require for tra
 
 This is how I set up my module:
 
-!![](/images/35.png)
+![](/images/35.png)
 
 It includes fields that associate the article with:
 
@@ -52,19 +52,19 @@ It also has room for a download link and expected delivery date which I can popu
 ‘Suppress client no.’ is abbreviated from ‘suppress client notifications.’ (Whenever I’m building CRM automations, I like to create a sort of ‘kill switch’ and then build that into the workflow logic.)
 To create a connection to an Account / Contact record, or any other module in the CRM, you’ll want to firstly add in a ‘Lookup’ field:
 
-!![](/images/36.png)
+![](/images/36.png)
 
 Then you’ll want to map which Contact/Account this relates to.
 
 And then give this module a title in the related list. You can also make the lookup required — or allow entries in this module to be freestanding.
 
-!![](/images/37.png)
+![](/images/37.png)
 
 I made one additional customization beyond the default Zoho configuration.
 
 For every client I onboard, I set up an email group with all the points of contact. And I created a custom email field for this address. This is the ‘point of contact’ email that I associate with the record in my invoicing platform.
 
-!![](/images/38.png)
+![](/images/38.png)
 
 I still create all points of contacts in the conventional way in Zoho and associate them with this account record.
 
@@ -74,7 +74,7 @@ But this custom field for the account management email is the one I will be buil
 
 I chose to set up three workflow rules for project deliveries, again using ‘article’ as a sort of generic shorthand for shorter writing projects:
 
-!![](/images/41.png)
+![](/images/41.png)
 
 These are:
 
@@ -85,13 +85,13 @@ These are:
 I built my workflow logic like this:
 
 
-!![](/images/42.png)
+![](/images/42.png)
 
 When I was creating the picklist for ‘Current Status’ I added just about every conceivable stage a shorter written project could be at from ‘Brief Received’ to ‘Draft 1: Feedback Received’ and so on.
 
 But I also set its default value to be ‘System Capture’. This is so that I can quickly add projects that haven’t been initiated to the CRM yet without triggering any workflows:
 
-!![](/images/43.png)
+![](/images/43.png)
 
 Note that I also added the ‘suppress system notifications’ as an AND logic condition.
 
@@ -103,31 +103,31 @@ Finally, I set up an email template to go to the client when the status has been
 
 I expect that most people wouldn’t bother clicking into the status update emails, so I included all the essential information in the subject line itself:
 
-!![](/images/44.png)
+![](/images/44.png)
 
 In English, that should read (for example): “Update: Article X is: in progress.”
 
 I then added my fields and wrapped this text into a template:
 
-!![](/images/45.png)
+![](/images/45.png)
 
 And I added a custom field as the link itself so that I don’t show the download link as a URL but rather embed it with a hyperlink on the ‘clicking here’ text:
 
-!![](/images/46.png)
+![](/images/46.png)
 
 Now, all I need to do to mark an article as finished and send it to my client is update the field from a dropdown:
 
-!![](/images/47.png)
+![](/images/47.png)
 
 Which will send this to my client:
 
-!![](/images/48.png)
+![](/images/48.png)
 
 Additionally, I now have a module called ‘Articles’ in my CRM where I can see all current articles that I am working on.
 
 I edited the default columns to make the information more useful:
 
-!![](/images/49.png)
+![](/images/49.png)
 
 I can simply click on each piece and send all project updates to the clients without having to ever send a manual email.
 
