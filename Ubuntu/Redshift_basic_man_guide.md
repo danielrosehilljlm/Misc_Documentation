@@ -22,11 +22,11 @@ If it's still a little bit bright for you then reduce the value in small increme
 
 So try:
 
-    redshift -x redshift -O 4200
+    redshift -x && redshift -O 4200
 
 If you've gone too far with the blue light filtering then go the other way:
 
-    redshift -x redshift -O 4300
+    redshift -x && redshift -O 4300
 
 After much experimentation you will hopefully find something to your pleasing.
 
