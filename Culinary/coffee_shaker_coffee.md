@@ -67,17 +67,17 @@ This is very important. If you're going to be shooting back the whole coffee mix
 
 Caffeine overdose is a real possibility here so use HALF the coffee that you usually would. Ie, if you usually use two tablespoons to make a double espresso then use only one.
 
-![](/images/cofffee3.png)
+![](/images/coffee3.png)
 
 Next, add your coffee and water to the shaker. Remember: the more water you add, the more raw coffee water you’re going to have to drink!
 
-![](/images/cofffee4.png)
+![](/images/coffee4.png)
 
 Next, you’re going to have to shake the ‘cocktail’ vigorously. Do not skimp on this step. You’ll be glad you did when it’s time to drink the concoction!
 
-![](/images/cofffee5.png)
+![](/images/coffee5.png)
 
-![](/images/cofffee6.png)
+![](/images/cofee6.png)
 
 Your beautiful coffee-water is now ready for consumption.
 
